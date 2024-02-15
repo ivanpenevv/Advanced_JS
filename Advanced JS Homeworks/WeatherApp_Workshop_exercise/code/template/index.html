@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeatherWizard</title>
+  <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+  <header>
+    <h1 style="text-align: center;">WeatherWizard</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="hourly.html">Hourly</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <h2 style="text-align: center;">Welcome to the WeatherWizard</h2>
+      <p style="text-align: center;">Search for a city to see the weather statistics</p>
+      <form style="text-align: center;" id="search-form">
+        <input type="text" id="city-input" placeholder="Enter city name">
+        <button type="submit"></button>
+      </form>
+      <div id="weather-data">
+      </div>
+    </section>
+    <section id="hourly">
+    </section>
+  </main>
+  <script src="/Advanced JS Homeworks/WeatherApp_Workshop_exercise/code/app/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Advanced JS Homeworks/HW 2/code/styles/styles.css">
+    <title>Reminder App</title>
+</head>
+<body>
+    <h1>Reminder App</h1>
+
+    <label for="title">Title:</label>
+    <input type="text" id="title" placeholder="Enter title">
+  
+    <label for="priority">Priority:</label>
+    <select id="priority">
+      <option value="Low">Low</option>
+      <option value="Medium">Medium</option>
+      <option value="High">High</option>
+    </select>
+  
+    <label for="color">Color:</label>
+    <input type="color" id="color" value="#000000">
+  
+    <label for="description">Description:</label>
+    <textarea id="description" placeholder="Enter description"></textarea>
+  
+    <button onclick="addReminder()">Add Reminder</button>
+    <button onclick="showReminders()">Show All Reminders</button>
+  
+    <table id="reminderTable">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Priority</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <script src="/Advanced JS Homeworks/HW 2/code/app/app.js"></script>
+</body>
+</html>

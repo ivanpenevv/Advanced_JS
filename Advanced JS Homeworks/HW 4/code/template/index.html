@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Star Wars Planets</h1>
+
+    <button onclick="getPlanets()">Get First 10 Planets</button>
+  
+    <table id="planetsTable">
+      <thead>
+        <tr>
+          <th>Planet Name</th>
+          <th>Population</th>
+          <th>Climate</th>
+          <th>Gravity</th>
+        </tr>
+      </thead>
+      <tbody id="planetsBody"></tbody>
+    </table>
+  
+    <button id="nextButton" style="display:none;" onclick="getNextPlanets()">NEXT 10</button>
+    <button id="prevButton" style="display:none;" onclick="getPlanets()">PREVIOUS 10</button>
+  
+  
+    <script src="/Advanced JS Homeworks/HW 4/code/app/app.js"></script>
+</body>
+</html>

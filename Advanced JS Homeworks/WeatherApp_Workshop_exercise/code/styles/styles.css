@@ -1,0 +1,115 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: hsl(199, 98%, 33%);
+  color: #e2e2e2;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
+nav a {
+  color: #e0dede;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+#weather-data {
+  text-align: center;
+}
+
+#weather-icon {
+  width: 100px;
+  height: 100px;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: #666666;
+  line-height: 1.6;
+}
+
+form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#search-form input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 200px;
+  margin-right: 10px;
+  font-size: 1em;
+}
+
+#search-form button {
+  padding: 10px 20px;
+  background-color: hsl(209, 88%, 62%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1em;
+  font-weight: bold;
+  position: relative;
+}
+
+#search-form button:hover {
+  background-color: hsl(209, 39%, 49%);
+}
+
+#search-form button::before {
+  content: '\1F50D';
+  font-size: 1.2em;
+  margin-right: 2px;
+}
+
+#home h2 {
+  font-size: 2em;
+  color: hsl(199, 98%, 33%);
+  margin-bottom: 20px;
+}
+
+#home p {
+  text-align: center;
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+section {
+  background-color: #f2f2f2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 20px;
+  padding: 40px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+  color: hsl(199, 98%, 33%);
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #555555;
+  margin-top: 15px;
+}

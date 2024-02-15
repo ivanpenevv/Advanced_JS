@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Car Filter</title>
+  <link rel="stylesheet" href="/Advanced JS Homeworks/HW 8/code/css/stylesheet.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Car Filter</h1>
+
+        <div class="filters">
+            <label for="type-filter">Type:</label>
+            <select id="type-filter"></select>
+
+            <label for="brand-filter">Brand:</label>
+            <select id="brand-filter"></select>
+
+            <label for="model-filter">Model:</label>
+            <select id="model-filter"></select>
+
+            <label for="doors-filter">Doors:</label>
+            <select id="doors-filter"></select>
+
+            <label for="gas-type-filter">Gas Type:</label>
+            <select id="gas-type-filter"></select>
+
+            <label for="color-filter">Color:</label>
+            <select id="color-filter"></select>
+
+            <label for="new-old-filter">New/Old:</label>
+            <label for="new-filter">
+                <input type="radio" name="new-old-filter" id="new-filter" value="new" checked />
+
+            </label>
+            <label for="old-filter">
+                <input type="radio" name="new-old-filter" id="old-filter" value="old" />
+        
+            </label>
+
+            <label for="horsepower-filter">Horsepower:</label>
+            <select id="horsepower-filter"></select>
+
+            <button id="search-btn">Search</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+
+        <table id="cars-table">
+            <thead>
+                <tr>
+                    <th>Type</th>
+                    <th>Brand</th>
+                    <th>Model</th>
+                    <th>Doors</th>
+                    <th>Gas Type</th>
+                    <th>Color</th>
+                    <th>New/Old</th>
+                    <th>Horsepower</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <p id="no-data-message" class="hidden"></p>
+    </div>
+
+
+  <script src="/Advanced JS Homeworks/HW 8/code/app/app.js"></script>
+</body>
+</html>
